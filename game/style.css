@@ -1,0 +1,37 @@
+/* Lanterndeep page chrome: dark water around the canvas, nothing more. */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #020a12;
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+main {
+  width: min(1280px, 100vw);
+  padding: 12px 12px 20px;
+  box-sizing: border-box;
+}
+
+#game {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #0a2e3f;
+  border: 1px solid rgba(255, 215, 106, 0.35);
+  border-radius: 10px;
+  cursor: crosshair;
+}
+
+.hint {
+  color: #9fc3d4;
+  font-size: 14px;
+  text-align: center;
+  margin: 10px 0 0;
+}
